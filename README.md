@@ -1,4 +1,4 @@
-#Earthquake Visualizer
+##Earthquake Visualizer
 
 An interactive web application that visualizes recent earthquake activity around the world.  
 Built with **React**, **Tailwind CSS**, and **Leaflet**, this app fetches real-time data from the **USGS Earthquake API** and displays seismic events on an interactive map.  
