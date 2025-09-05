@@ -30,8 +30,8 @@ Users can explore earthquake details and generate AI-powered summaries via the *
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/your-username/earthquake-visualizer.git
-cd earthquake-visualizer
+git clone https://github.com/Achyuth1818/EarthquakeVisualizerApp.git
+cd earthQuakeVisualizer
 Install dependencies
 npm i
 Start development server
