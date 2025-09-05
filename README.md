@@ -1,12 +1,38 @@
-# React + Vite
+#Earthquake Visualizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive web application that visualizes recent earthquake activity around the world.  
+Built with **React**, **Tailwind CSS**, and **Leaflet**, this app fetches real-time data from the **USGS Earthquake API** and displays seismic events on an interactive map.  
+Users can explore earthquake details and generate AI-powered summaries via the **Perplexity API**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- 🌐 Interactive world map with earthquake markers  
+- 🎨 Color-coded markers by magnitude (red = large, orange = medium, yellow = small)  
+- ⏳ Filter earthquakes by time range: past hour, past day, past 7 days, past 30 days  
+- 📝 Popup with earthquake details (place, magnitude, time, depth, link)  
+- 🤖 AI Summaries: Generate ~100-word natural-language summaries using Perplexity API  
+- 📱 Responsive design for desktop & mobile  
+- ⚡ Loading indicator + error handling for smooth UX  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+- **React** – Frontend framework  
+- **Tailwind CSS** – Styling  
+- **React-Leaflet + Leaflet** – Map visualization  
+- **USGS Earthquake API** – Real-time seismic data  
+- **Perplexity API** – AI-powered summaries  
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/your-username/earthquake-visualizer.git
+cd earthquake-visualizer
+Install dependencies
+npm i
+Start development server
+npm start
